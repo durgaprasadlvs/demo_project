@@ -1,8 +1,8 @@
 
 
-#Automation Framework
+# Automation Framework
 
-#####Java + Selenium Webdriver + Maven + TestNG
+##### Java + Selenium Webdriver + Maven + TestNG
 
 - Java JDK 1.8 is used
 
@@ -13,7 +13,7 @@
 - TestNG 6.14.3 testing framework is used for test coverage
 
 
-#####PageFactoryModel
+##### PageFactoryModel
 
 - Classes are created for all the required pages to be traversed in the journey
 
@@ -21,20 +21,20 @@
 
 - Test class import all the required pages and perform the actions accordingly 
 
-#####Webdriver manager 
+##### Webdriver manager 
 
 - Webdriver manager helps to install the required drivers as specified in the _**DriverType.java**_ file
 
 
-#####Browser and Driver Requirements
+##### Browser and Driver Requirements
 
 Below browser versions and driver versions are tested 
 
 - Chrome 
 
-Browser | Driver
-:---: |: ---:
-75.0.3770 | 2.37
+Browser|Driver
+:---:|:----:
+75.0.3770|2.37
 "| 2.38
 "| 75.0.3770.140
 "| 76.0.3809.68
@@ -42,8 +42,8 @@ Browser | Driver
 
 - Firefox (Gecko driver) 
 
-Browser | Driver
-:---: |: ---:
+Browser|Driver
+:---: |:---:
 68.0.1 | 0.18.0
 
 
