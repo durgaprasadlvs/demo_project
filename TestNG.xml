@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test">
+
+
+    <listeners>
+        <listener class-name="com.qantas.selenium.reports.Reporter" />
+    </listeners>
+
+    <test name="Test Automation Framework" parallel="false">
+        <classes>
+            <class name="com.qantas.selenium.tests.serviceNswTest"/>
+        </classes>
+    </test>
+
+</suite>

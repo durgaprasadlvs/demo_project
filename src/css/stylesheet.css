@@ -1,0 +1,347 @@
+.test {
+	background: #FCFCFC;
+}
+
+.mainPage {
+	background: #eee;
+	border: #ddd;
+	padding: 30px;
+	margin-bottom: 90px;
+}
+
+.mainPage p {
+	text-shadow: 0px 1px 1px #4d4d4d;
+	font: bold 50px/1 Helvetica, Verdana, sans-serif;
+	text-align: center;
+}
+
+.mainPage h5 {
+	font: bold 16px/1 Helvetica, Verdana, sans-serif;
+	text-align: center;
+}
+
+.logo {
+	left: 30px;
+	position: absolute;
+	top: 22px;
+}
+
+#suiteTitle {
+	text-shadow: 0px 1px 1px #4d4d4d;
+	font: bold 40px/1 Helvetica, Verdana, sans-serif;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+#documentation {
+	font-size: 164;
+	font-weight: bold;
+	color: blue;
+	text-align: center;
+	margin: 25px 50px 75px 100px;
+	margin-top: 550px
+}
+
+#documentation:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+
+
+h1 {
+	color: #222;
+	text-shadow: 0px 2px 3px #555;
+	text-align: center;
+}
+
+#Passed,#UnrecognisedFailures,#KnownFailures,#Skipped {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	font-weight: normal;
+	font-size: 12px;
+	font-family: Arial;
+	color: #000000;
+	text-align: left;
+	letter-spacing: 0px;
+	border-style: 1;
+	border-collapse: collapse;
+	border: 0.5px solid black;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	width: auto;
+	Height: 80px;
+}
+
+caption {
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 18px;
+	width: 100%;
+	color: #222;
+}
+
+#Passed th {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-width: 0 1px 1px 0;
+	background-color: #348017;
+	font-size: 15px;
+	font-weight: bold;
+	color: #222;
+	width: auto;
+	background-image: url('unsorted.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+#UnrecognisedFailures th {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-width: 0 1px 1px 0;
+	background-color: #BF3030;
+	font-size: 15px;
+	font-weight: bold;
+	color: #222;
+	background-image: url('unsorted.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+#UnrecognisedFailures.tablesorter thead tr.tablesorter-headerRow th.sorter-false
+	{
+	background-image: none;
+}
+
+#UnrecognisedFailures th.tablesorter-headerAsc {
+	background-image: url('up.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+#UnrecognisedFailures th.tablesorter-headerDesc {
+	background-image: url('down.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+#Passed.tablesorter thead tr.tablesorter-headerRow th.sorter-false {
+	background-image: none;
+}
+
+#Passed th.tablesorter-headerAsc {
+	background-image: url('up.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+#Passed th.tablesorter-headerDesc {
+	background-image: url('down.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+#KnownFailures th {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-width: 0 1px 1px 0;
+	background-color: #274E7D;
+	font-size: 15px;
+	font-weight: bold;
+	color: #222;
+}
+
+#Skipped th {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-width: 0 1px 1px 0;
+	background-color: #992667;
+	font-size: 15px;
+	font-weight: bold;
+	color: #222;
+	width: 70%;
+}
+
+#Passed td {
+	padding: 5px;
+	border: 1px solid #fff;
+	border-width: 0 1px 1px 0;
+	background-color: #85BB65;
+	max-width: 95ch;
+	word-wrap: break-word;
+}
+
+#UnrecognisedFailures td {
+	padding: 5px;
+	border: 1px solid #fff;
+	border-width: 0 1px 1px 0;
+	background-color: #FF7373;
+	max-width: 95ch;
+	word-wrap: break-word;
+}
+
+#KnownFailures td {
+	padding: 5px;
+	border: 1px solid #fff;
+	border-width: 0 1px 1px 0;
+	background-color: #6899D3;
+	max-width: 95ch;
+	word-wrap: break-word;
+}
+
+#Skipped td {
+	padding: 5px;
+	border: 1px solid #fff;
+	border-width: 0 1px 1px 0;
+	background-color: #E667AF;
+	max-width: 95ch;
+	word-wrap: break-word;
+}
+
+#UnrecognisedFailures tr:hover td {
+	background-color: #FF4040;
+}
+
+#Passed tr:hover td {
+	background-color: #4AA02C;
+}
+
+#KnownFailures tr:hover td {
+	background-color: #4284D3;
+}
+
+#Skipped tr:hover td {
+	background-color: #E6399B;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ededed;
+}
+
+#container {
+	width: 800px;
+	margin: 70px auto 400px auto;
+}
+
+.panels {
+	width: 150px;
+	height: 260px;
+	background: white;
+	margin: 5px;
+	float: left;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+	box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+}
+
+#RanTotal {
+	width: 150px;
+	height: 50px;
+	background: #009999;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+#PassedTotal {
+	width: 150px;
+	height: 50px;
+	background: #348017;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+#FailedTotal {
+	width: 150px;
+	height: 50px;
+	background: #BF3030;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+#EnvironmentTotal {
+	width: 150px;
+	height: 50px;
+	background: #274E7D;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+#SkippedTotal {
+	width: 150px;
+	height: 50px;
+	background: #992667;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+.top h2 {
+	color: #fff;
+	text-align: center;
+	font: 300 20px/40px Helvetica, Verdana, sans-serif;
+}
+
+.panels hr {
+	border: 0;
+	background-color: #BCBEC0;
+	color: #BCBEC0;
+	height: 1px;
+	width: 90px;
+	margin: 20px 0 0 30px;
+}
+
+.panels h1 {
+	text-align: center;
+	font: bold 80px/1 Helvetica, Verdana, sans-serif;
+	margin: 20px 0 0 0;
+}
+
+.panels h1 sup {
+	font-size: 45px;
+}
+
+.panels p {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font: 500 14px/1 Helvetica, Verdana, sans-serif;
+	color: #BCBEC0;
+}
+
+.panels:hover {
+	-webkit-transform: scale(1.2, 1.2);
+	-moz-transform: scale(1.2, 1.2);
+	-o-transform: scale(1.2, 1.2);
+	-ms-transform: scale(1.2, 1.2);
+	transform: scale(1.2, 1.2);
+}
+
+.pod {
+	text-align: center;
+	font: bold 30px/1 Helvetica, Verdana, sans-serif;
+	margin: -25px 0 0 0;
+}
