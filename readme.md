@@ -2,6 +2,8 @@
 
 # Automation Framework
 
+#### Note : 'Locate us' button is not availabe, so instead used 'Find Locations' link
+
 ##### Java + Selenium Webdriver + Maven + TestNG
 
 - Java JDK 1.8 is used
